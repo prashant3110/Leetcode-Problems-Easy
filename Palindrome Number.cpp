@@ -10,7 +10,7 @@ public:
             reverse=reverse*10 + lastdigit;
             x=x/10;
         }
-        
+         
         return((k==reverse)? true: false);
         
     }
