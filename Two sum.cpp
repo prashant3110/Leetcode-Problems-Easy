@@ -26,3 +26,23 @@ Constraints:
 -109 <= target <= 109
 Only one valid answer exists. */
 
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+       
+        int n=nums.size();
+        
+        for(int i=0;i<n;i++)
+        {
+            for(int j=i+1;j<n;j++)
+            {
+                if(nums[i]+nums[j]==target)
+                {
+                    nums={i,j};
+                }
+            }
+        }
+        
+        return nums;
+    }
+};
