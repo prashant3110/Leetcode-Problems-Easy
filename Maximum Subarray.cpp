@@ -36,7 +36,7 @@ public:
             for(int j=i;j<n;j++)
             {
                 sum=sum+nums[j];
-                m=max(m,sum);
+                m=max(m,sum); 
                
                 
             }
