@@ -16,7 +16,7 @@ public:
                 {
                     sum+=mat[i][j];
                 }
-            }
+            } 
         }
         return sum;
     } 
