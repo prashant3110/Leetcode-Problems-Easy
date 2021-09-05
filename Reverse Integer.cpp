@@ -12,4 +12,4 @@ public:
         
         return ((reverse<INT_MIN || reverse> INT_MAX) ? 0: reverse);
     }
-};
+}; 
