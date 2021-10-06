@@ -14,7 +14,7 @@ public:
         temp=temp^nums[i];
      }
         
-       return temp; 
+       return temp;  
         
     }
 }; 
