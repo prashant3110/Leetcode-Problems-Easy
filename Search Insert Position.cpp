@@ -35,13 +35,12 @@ public:
             else if(nums[mid]>target)
             {
                 h=mid-1;
-             }
+            }
             else 
             {
-                l=mid+1;
-                
+                l=mid+1;    
             }
-              if(l == nums.size()) return l;
+            if(l == nums.size()) return l;
         }
         
      return l;
