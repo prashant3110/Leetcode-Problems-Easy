@@ -40,7 +40,7 @@ public:
             {
                 l=mid+1;    
             }
-            if(l == nums.size()) return l;
+            if(l == n) return l;
         }
         
      return l;
